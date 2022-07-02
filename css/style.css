@@ -1,0 +1,82 @@
+/* Website color: #1098ad */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Roboto', sans-serif; 
+   border-top: 10px solid #1098ad;
+   font-weight: 300;
+}
+.container{
+    /* background-color: pink; */
+    width: 800px;
+    margin: 0 auto;
+}
+.welcome-title{
+    font-size: 40px;
+    color: #1098ad;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.box-green{
+    border: 10px solid blue;
+    width: 200px;
+    padding: 40px;
+    margin: 40px;
+}
+header {
+   background-color: #f7f7f7; 
+   padding: 35px;
+}
+.nav{
+    margin-top: 20px;
+}
+.nav li {
+    margin-right: 37px;
+    display: inline-block; 
+}
+.nav li a {
+    color: #1098ad;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #fff;
+    background-color: #014752;
+    padding: 10px;
+}
+.author-img {
+    width: 50px;
+}
+.post-details{
+    margin-top: 10px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.post-img{
+    width: 100%;
+}
+.article {
+    margin-top: 40px;
+}
+.paragraph {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+h2 {
+    color: #1098ad;
+    font-size: 25px;
+}
+
+ol {
+    margin-left: 50px;
+}
+li {
+    margin-bottom: 10px;
+}
+.first-li {
+    font-weight: 500;
+}
